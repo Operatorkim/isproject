@@ -1,0 +1,89 @@
+/* Global styles */
+body, html{
+  font-family: 'Inconsolata', monospace;
+
+  background-image: url('project4.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+h1 {
+  color: #bfc6cc;
+  text-align: center;
+   font-family: 'Handjet', cursive;
+}
+
+/* Form styles */
+form.custom-form {
+  font-family: 'Inconsolata', monospace;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #bfc6cc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* Added border-radius */
+  background: linear-gradient(#bfc6cc, #a2a9b0); /* Add a subtle gradient background */
+}
+
+label.custom-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input.custom-input,
+select.custom-select {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 5px; /* Added border-radius */
+}
+
+input.custom-submit-button {
+  width: 90%;
+  padding: 10px;
+  background-color: #015c92;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px; /* Added border-radius */
+
+}
+
+input.custom-submit-button:hover {
+  background-color: black;
+}
+
+/* Styles for the eye icon */
+.password-input {
+  position: relative;
+}
+
+.toggle-password-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  background-image: url('eye-icon.png'); /* Replace 'eye-icon.png' with your eye icon image path */
+  background-size: cover;
+}
+
+input.custom-checkbox:checked ~ .toggle-password-icon {
+  background-image: url('eye-slash-icon.png'); /* Replace 'eye-slash-icon.png' with your eye-slash icon image path */
+}
+
+/* Account type paragraph styles */
+p.custom-paragraph {
+  margin-bottom
+

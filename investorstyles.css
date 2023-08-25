@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inconsolata', monospace;
+  background-image: linear-gradient(to bottom, #1e272e, #2c3e50);
+  color: #fff;
+}
+
+header {
+  background-color: #192734;
+  color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Handjet', cursive;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 15px;
+  color: #00cec9;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #fdcb6e;
+}
+
+.content {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.heading {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.capabilities {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.capabilities li {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.sub-heading {
+  font-size: 28px;
+  margin-top: 50px;
+}
+
+.guidelines-list {
+  list-style: decimal;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+.guidelines-list li {
+  margin-bottom: 10px;
+}
+
+.projects-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.projects-list li {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.project-author {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.footer {
+  text-align: center;
+  padding:
+
+
+
+
+

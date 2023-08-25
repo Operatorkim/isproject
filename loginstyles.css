@@ -1,0 +1,84 @@
+body, html{
+  font-family: 'Inconsolata', monospace;
+
+  background-image: url('project4.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  font-size: 48px;
+  color: #007bff; /* Blue color, you can change it to match your brand */
+  text-align: center;
+  margin-top: 30px;
+   font-family: 'Handjet', cursive;
+}
+
+.custom-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #bfc6cc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  position: relative;
+}
+
+.custom-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #007bff; /* Blue color, you can change it to match your brand */
+}
+
+.custom-input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.custom-submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Blue color, you can change it to match your brand */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.custom-submit-button:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.toplinks2 {
+  display: block;
+  color: #007bff; /* Blue color, you can change it to match your brand */
+  text-align: center;
+  text-decoration: none;
+}
+
+.toplinks2:hover {
+  color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.custom-paragraph {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error-message {
+  position: relative;
+  bottom: 10;
+  left: 120;
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+

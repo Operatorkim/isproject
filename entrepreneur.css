@@ -1,0 +1,128 @@
+
+/* Reset default margin and padding */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('project3.jpeg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #094152;
+  font-family: 'Inconsolata', monospace;
+  
+}
+
+/* Style for the red link */
+.back-link {
+  color: red;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect */
+.back-link:hover {
+  color: darkred; /* Change color on hover */
+}
+
+
+/* Flex layout for container */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: black;
+}
+
+/* Table styling */
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Table header cells */
+.project-table th {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+  background-color: #2d3436;
+  color: #333;
+}
+
+/* Project rows */
+.project-row {
+  cursor: pointer;
+}
+
+/* Project name cells and date created cells */
+.project-name,
+.date-created {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+  background-color: #dfe6e9; /*grayish*/
+  color: black;
+}
+
+
+
+/* Header title */
+.header-title {
+  text-align: left;
+  margin: 0;
+  padding: 20px;
+  color: black;
+ font-family: 'Tektur', cursive;
+}
+
+/* Table container */
+.table-container {
+  flex: 1;
+  margin-right: 20px;
+  overflow: auto;
+}
+
+/* Additional info container */
+/* Underline the <h2> element */
+.additional-info h2 {
+  text-decoration: underline;
+}
+
+.additional-info {
+  flex: 1;
+  margin-top: 10px;
+  color: white; /* Set font color to white */
+}
+
+/* Additional info list */
+.additional-info ol {
+  list-style-type: disc; /* Remove default numbers */
+  padding-left: 20px; /* Add some padding to the left */
+}
+
+/* Additional info list items */
+.additional-info li {
+  margin-bottom: 5px; /* Add some space between list items */
+}
+
+/* Additional info links */
+.additional-info a {
+  color: white; /* Set link color to white */
+  text-decoration: none; /* Remove underlines from links */
+}
+
+/* Delete and Add Project Buttons */
+.delete-project-button,
+#add {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-project-button:hover,
+#add:hover {
+  background-color: #222; /* Darken the background color on hover */
+}

@@ -1,0 +1,55 @@
+/* Reset default margin and padding */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d3436;
+  font-family: 'Inconsolata', monospace;
+}
+
+/* Add animation to the logo */
+.logo {
+  width: 200px;
+  height: 200px;
+  animation: pulse 2s infinite;
+  border-radius: 50%; /* Make the logo round */
+
+  display: flex;
+  
+  overflow: hidden;
+  border: 4px solid hotpink; /* Add a decorative border */
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5); /* Add a shadow effect */
+}
+
+/* Keyframes for pulsing animation */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+/* Top links styling */
+.toplist1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #FDA7DF;
+  
+  color: black;
+  display: flex;
+  justify-content: space-between; /* Add space between links */
+  width: 100%; /* Full width */
+}
+
+.toplinks a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px; /* Add some spacing between links */
+}
