@@ -59,7 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
   <h1 align="center">New User</h1>
-  <form class="custom-form" action="register.php" method="post" onsubmit="return validateForm();">
+  <form class="custom-form" action="register.php" method="post">
 
     <label class="custom-label">First Name:</label>
     <input type="text" name="Firstname" id="firstname" class="custom-input">

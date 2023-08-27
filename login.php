@@ -1,6 +1,5 @@
 <?php
-session_start()
-
+session_start();
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $server = "localhost";
     $user = "root";
@@ -48,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
   <h1 class="logo" align="center">DIS</h1>
-  <form class="custom-form" onsubmit="return validateForm();">
+  <form class="custom-form" method='post'>
     <label class="custom-label">Email:</label>
       <input type="email" name="Email" placeholder="Enter valid email address" id="email" class="custom-input">
         <span id="email-error" class="error-message"></span>
